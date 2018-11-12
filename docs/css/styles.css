@@ -2,7 +2,63 @@
     width: 960px;
 }
 
+#top {
+    height: 130px;
+    line-height: 130px;
+}
+
+.wrapperPaddingSides {
+    padding-left: 31px;
+    padding-right: 31px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.Helvetica {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#navigation li {
+    display: inline;
+}
+
 .marginCenter {
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clearMargin {
+    margin: 0px;
+}
+
+.clearPadding {
+    padding: 0px;
+}
+
+.textRight {
+    text-align: right;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.grSmall {
+    width: 329px;
+    padding-left: 19px;
+    padding-right: 19px;
+}
+
+.grBig {
+    width: 545px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
