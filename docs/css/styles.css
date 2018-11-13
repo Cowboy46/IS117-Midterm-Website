@@ -26,9 +26,17 @@
 }
 
 #about {
-    width: 545px;
-    padding-left: 24px;
-    padding-right: 24px;
+    width: 580px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#aboutText {
+    width: 520px;
+}
+
+#infoTable {
+    width: 196px;
 }
 
 .blackBackground {
