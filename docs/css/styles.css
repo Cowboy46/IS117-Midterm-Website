@@ -6,10 +6,6 @@
     line-height: 130px;
 }
 
-#content {
-    background-image: url("../images/4x4-adventure-automobile-1571783.jpg");
-}
-
 #footer {
     height: 100px;
     line-height: 100px;
@@ -18,6 +14,21 @@
 
 #sidebar {
     opacity: 0.8;
+}
+
+#sideimage {
+    width: 291px;
+    padding: 18px;
+}
+
+.smallBorder {
+    border: 1.2px solid black;
+}
+
+#about {
+    width: 545px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 .blackBackground {
@@ -29,16 +40,20 @@
     top: 115px;
 }
 
+.mainImage {
+    background-image: url("../images/4x4-adventure-automobile-1571783.jpg");
+}
+
+.contentHeight {
+    height: 554px;
+}
+
 .whiteText {
     color: white;
 }
 
 .topHeight {
     height: 130px;
-}
-
-.contentHeight {
-    height: 554px;
 }
 
 a {
@@ -70,6 +85,10 @@ a:hover {
     padding: 0px;
 }
 
+.clearFix {
+    clear: both;
+}
+
 .textRight {
     text-align: right;
 }
@@ -86,19 +105,4 @@ a:hover {
     width: 418px;
     padding-left: 31px;
     padding-right: 31px;
-}
-
-
-
-
-.grSmall {
-    width: 329px;
-    padding-left: 19px;
-    padding-right: 19px;
-}
-
-.grBig {
-    width: 545px;
-    padding-left: 24px;
-    padding-right: 24px;
 }
