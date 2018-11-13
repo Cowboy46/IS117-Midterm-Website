@@ -3,15 +3,31 @@
 }
 
 #top {
-    height: 130px;
     line-height: 130px;
 }
 
-.wrapperPaddingSides {
-    padding-left: 31px;
-    padding-right: 31px;
+#content {
+    background-image: url("../images/4x4-adventure-automobile-1571783.jpg");
 }
 
+#sidebar {
+    background-color: black;
+    opacity: 0.7;
+}
+
+#sidebar h1, h2 {
+    color: white;
+    position: relative;
+    top: 115px;
+}
+
+.topHeight {
+    height: 130px;
+}
+
+.contentHeight {
+    height: 554px;
+}
 
 a {
     text-decoration: none;
@@ -20,7 +36,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
 
 .Helvetica {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -50,6 +65,19 @@ a:hover {
 .floatLeft {
     float: left;
 }
+
+.halfPageNoPadding {
+    width: 480px;
+}
+
+.halfPageWithPadding {
+    width: 418px;
+    padding-left: 31px;
+    padding-right: 31px;
+}
+
+
+
 
 .grSmall {
     width: 329px;
